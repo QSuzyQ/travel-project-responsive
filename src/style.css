@@ -114,7 +114,7 @@ main h2 {
 main h3 {
   font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 5px;
   color: #272044;
   opacity: 0.3;
@@ -122,23 +122,78 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
 main p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5x;
   color: #272044;
   opacity: 0.7;
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+.btn {
+  display: block;
+  padding: 16px 32px;
+  background: #462cb3;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.secondary {
+  background: #f8f8f8f8;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  margin-top: 30px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 10px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #272044;
+  opacity: 0.7;
 }
 
 .grid {
@@ -164,6 +219,10 @@ section {
   margin: auto 0;
   width: 100%;
   object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media (max-width: 960px) {
