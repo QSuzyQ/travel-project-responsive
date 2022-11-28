@@ -222,6 +222,18 @@ section {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-gallery {
+  margin-top: 30px;
+  grid-auto-rows: minmax(20vw, 160px);
+  grid-gap: 20px;
+}
+
+.grid-gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .img-responsive {
   width: 100%;
   display: block;
@@ -258,6 +270,10 @@ section {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .grid-gallery {
+    grid-auto-rows: auto;
   }
 
   .card-header img {
